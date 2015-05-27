@@ -1,7 +1,9 @@
 Name: Yilin Tao
 Email: ytao3@binghamton.edu
 
-I have completed the project
+This program can run by:
+    ./run-mapreduce "counter"|"finder" file_path split_num [word_to_find]
 
-My code can compile on remote and I have tested on remote.
-I use grep to test and the result is correct
+The theory of this program is MapReduce. It will genereate multiple processes to do map work.
+And the first process of them will do reduce work until all the processes have completed their
+map work.
